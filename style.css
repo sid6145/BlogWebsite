@@ -12,17 +12,27 @@ ul{
 }
 
 li{
-   float: left;
+   float: right;
 }
+
 
 li a{
     display: block;
     text-decoration: none;
     color: white;
     padding:20px 40px;
+    transition: 0.4s ease;
 }
 
 li a:hover{
     background-color: white;
     color: #333;
+    border-radius: 10px;
+}
+
+.logo{
+    padding: 20px 40px;
+    color: white;
+    float:left;
+    font-style: italic;
 }
