@@ -40,6 +40,22 @@ main{
     text-align: center;
 }
 
+footer{
+    padding: 50px 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
 .logo{
     padding: 20px 40px;
     color: white;
@@ -66,4 +82,23 @@ main{
     width: 20%;
     padding: 50px 50px;
     display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 5px 5px;
+}
+
+.blog-btn{
+    padding: 10px 10px;
+    margin-top: 5px;
+    background-color:#e84545;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s ease;
+    color: white;
+    cursor: pointer;
+}
+
+.blog-btn:hover{
+    background-color: white;
+    color: #e84545;
 }
