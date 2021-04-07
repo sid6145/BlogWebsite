@@ -12,7 +12,7 @@ header{
 
 ul{
     list-style-type: none;
-    background-color: black;
+    background-color: transparent;
     overflow: hidden;
     
 }
@@ -36,6 +36,10 @@ li a:hover{
     border-radius: 10px;
 }
 
+main{
+    text-align: center;
+}
+
 .logo{
     padding: 20px 40px;
     color: white;
@@ -44,7 +48,7 @@ li a:hover{
 }
 
 .welcome{
-    padding: 200px 100px;
+    padding: 200px 200px;
     text-align: center;
     color: white;
 }
@@ -56,4 +60,10 @@ li a:hover{
 
 .welcome p{
     font-size: 20px;
+}
+
+.blog{
+    width: 20%;
+    padding: 50px 50px;
+    display: inline-block;
 }
