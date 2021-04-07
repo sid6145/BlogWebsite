@@ -36,3 +36,22 @@ li a:hover{
     float:left;
     font-style: italic;
 }
+
+.welcome{
+    padding: 200px 100px;
+    text-align: center;
+    background:url(images/headerBack.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.welcome h1{
+    padding-bottom:20px ;
+    font-size: 45px;
+}
+
+.welcome p{
+    font-size: 20px;
+}
