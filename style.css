@@ -3,10 +3,16 @@
     margin: 0;
 }
 
+header{
+    background:url(images/headerBack.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 ul{
     list-style-type: none;
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
     
 }
@@ -40,10 +46,6 @@ li a:hover{
 .welcome{
     padding: 200px 100px;
     text-align: center;
-    background:url(images/headerBack.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
 }
 
