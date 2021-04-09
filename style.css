@@ -15,7 +15,7 @@ ul{
      position: absolute;
     text-decoration: none;
     color: white;
-    padding:25px 40px;
+    padding: 25px 40px;
     font-style: italic;
     color: white;
     float:left;
@@ -43,7 +43,9 @@ li a:hover{
 
 main{
     text-align: center;
-    margin: 20px 20px 50px;
+    margin: 20px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -61,8 +63,8 @@ footer p{
 }
 
 img{
-    width: 250px;
-    height: 200px;
+    width: 15rem;
+    height: 10rem;
 }
 
 
@@ -89,7 +91,6 @@ img{
 .blog{
     width: 20%;
     padding: 50px 80px;
-    display: inline-block;
     background-color: black;
     color: white;
     margin: 5px 5px;
