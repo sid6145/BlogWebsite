@@ -36,7 +36,10 @@ main{
 }
 
 footer{
-    padding: 50px 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px;
     text-align: center;
     background-color: black;
     color: white;
@@ -100,4 +103,38 @@ img{
 .blog-btn:hover{
     background-color: white;
     color: #e84545;
+}
+
+
+/* contact page styling */
+form{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translateY(-50%);
+    background-color: red;
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form input{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type=submit]{
+   padding: 10px 75px;
+   background-color: blue;
+   border-radius: 5px;
+   color: white;
+   transition: 0.4s ease;
+   cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: blue;
 }
