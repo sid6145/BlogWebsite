@@ -11,10 +11,20 @@ ul{
     background-color: black;
     
 }
+ h2 a{
+     position: absolute;
+    text-decoration: none;
+    color: white;
+    padding:25px 40px;
+    font-style: italic;
+    color: white;
+    float:left;
+}
 
 li{
    float: right;
 }
+
 
 
 li a{
@@ -55,12 +65,7 @@ img{
     height: 200px;
 }
 
-.logo{
-    padding: 20px 40px;
-    color: white;
-    float:left;
-    font-style: italic;
-}
+
 
 .welcome{
     padding: 200px 200px;
