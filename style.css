@@ -46,6 +46,7 @@ main{
     margin: 20px 0 50px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 footer{
@@ -93,7 +94,7 @@ img{
     padding: 50px 80px;
     background-color: black;
     color: white;
-    margin: 5px 5px;
+    margin: 3px 3px;
 }
 
 .blog-btn{
@@ -144,4 +145,57 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: white;
     color: blue;
+}
+
+
+
+@media (max-width:1125px){
+    .blog{
+        width: 25%;
+        padding: 50px 80px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 10px 10px;
+    }
+   
+    img{
+        width: 10rem;
+        height: 5rem;
+    }
+
+    main{
+        text-align: center;
+        margin: 0px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media (max-width:817px){
+    .blog{
+        width: 80%;
+        height: 70%;
+        padding: 50px 80px;
+        background-color: black;
+        color: white;
+        margin: 5px 5px;
+        text-align: center;
+    }
+   
+    img{
+        width: 10rem;
+        height: 5rem;
+    }
+
+    main{
+        text-align: center;
+        margin: 0px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
 }
